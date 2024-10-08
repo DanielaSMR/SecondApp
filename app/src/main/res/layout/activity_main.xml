@@ -7,20 +7,97 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<View
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background = "@color/teal_200"
-    app:layout_constraintTop_toTopOf="parent"
-    android:id="@+id/view1"
-    tools:ignore="MissingConstraints" />
+
 
     <View
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background = "@color/purple_500"
+        android:id="@+id/view1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="188dp"
+        android:background="@color/purple_500"
         app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="180dp" />
+
+    <View
         android:id="@+id/view2"
-        tools:ignore="MissingConstraints" />
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="236dp"
+        android:background="@color/teal_200"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="130dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="236dp"
+        android:background="@color/teal_200"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="230dp" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="285dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="180dp" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="335dp"
+        android:background="@color/teal_200"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="230dp" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="335dp"
+        android:background="@color/teal_200"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="130dp" />
+
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="385dp"
+        android:background="@color/purple_500"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="385dp"
+        android:background="@color/purple_500"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="180dp" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="385dp"
+        android:background="@color/purple_500"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="280dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
